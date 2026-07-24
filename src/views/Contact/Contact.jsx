@@ -1,9 +1,16 @@
 import "./Contact.css";
 import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import BodyContainer from "../../components/BodyContainer/BodyContainer"; 
+
 function Contact() {
   return (
     <div>
-      <Navbar/>
+      <Navbar active="contact" />
+      <BodyContainer>
+       <h1>Contact</h1>
+      </BodyContainer>
+      <Footer/>
     </div>
   );
 }
