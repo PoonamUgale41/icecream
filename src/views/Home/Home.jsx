@@ -16,7 +16,7 @@ function Card({children}){
 const PRODUCTS =[
   {
     id:1,
-    title: "Icecream cone(strawberry)",
+    title: "Icecream cone",
     price:30,
     description:"A sweet, frozen dessert made from cream, sugar, and fresh strawberries or natural flavorings",
     image:Img3
@@ -64,7 +64,21 @@ function Home() {
       <Navbar active="home" />
 
       <BodyContainer>
-        <h1>Home</h1>
+        <h1>Ice Creams</h1>
+        <div className="products-container">
+          {PRODUCTS.map((product)=>{
+            return (
+            <div className="product-container" key={product.id}>
+              <img src={product.image} className="product-img" alt={product.title} />
+            
+              <h1 className="product-title">{product.title}</h1>
+              <p className="product-price">Price: {product.price}</p>
+              <p className="product-description">{product.description}</p>
+            </div>
+            );
+          })
+          }
+       </div>
       </BodyContainer>
 
       <Footer />
