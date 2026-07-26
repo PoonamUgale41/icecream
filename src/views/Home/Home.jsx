@@ -2,7 +2,7 @@ import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BodyContainer from "../../components/BodyContainer/BodyContainer";
-import ProductCard from "../../components/ProductCard/ProductCard";
+import ProductCard from "../../components/productCard/ProductCard";
 import { PRODUCTS } from "../../config";
 
 
@@ -22,8 +22,7 @@ function Home() {
         <h1>Ice Creams</h1>
         <div className="products-container">
           {PRODUCTS.map((product)=>{
-           return 
-            <ProductCard product={product} />;
+           return  <ProductCard key={product.id}  product={product}/>;
            
           })
           }
