@@ -11,8 +11,6 @@ function Card({children}){
 }
 
 
-
-
 function Home() {
   return (
     <div className="home">

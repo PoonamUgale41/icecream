@@ -4,6 +4,10 @@ import Img3 from "./assets/ice-cream3.png";
 import Img4 from "./assets/ice-cream4.png";
 import Img5 from "./assets/ice-cream5.png";
 import Img6 from "./assets/ice-cream6.png";
+import Img7 from "./assets/ice-cake1.png";
+import Img8 from "./assets/ice-cake2.png";
+import Img9 from "./assets/ice-cake3.png";
+import Img10 from "./assets/ice-cake4.png";
 
 const PRODUCTS =[
   {
@@ -44,9 +48,37 @@ const PRODUCTS =[
   {
     id:6,
     title: "Sundae",
-    price:100,
+    price:50,
     description:"a sweet ice cream dessert that typically features ice cream, sweet syrup or sauce, and extra toppings",
     image:Img6
+  },
+  {
+    id:7,
+    title: "IceCake-cheese",
+    price:500,
+    description:"a sweet ice-caker dessert that typically features ice cream, sweet syrup or sauce, and extra toppings",
+    image:Img7
+  },
+  {
+    id:8,
+    title: "IceCake-strawberry",
+    price:550,
+    description:"a sweet ice-cake dessert that typically features ice cream, sweet syrup ,blueberry, and extra toppings",
+    image:Img8
+  },
+  {
+    id:9,
+    title: "IceCake-blueberry",
+    price:550,
+    description:"a sweet ice-cake dessert that typically features ice cream, sweet syrup ,blueberry, and extra toppings",
+    image:Img9
+  },
+  {
+    id:10,
+    title: "IceCake-blueberry",
+    price:550,
+    description:"a sweet ice-cake dessert that typically features ice cream, sweet syrup ,blueberry, and extra toppings",
+    image:Img10
   },
 ];
 
