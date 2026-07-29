@@ -2,13 +2,15 @@ import "./Contact.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BodyContainer from "../../components/BodyContainer/BodyContainer"; 
+import PageTitle from "../../components/PageTitle/PageTitle";
 
 function Contact() {
   return (
     <div>
       <Navbar active="contact" />
       <BodyContainer>
-       <h1>Contact</h1>
+       <PageTitle title="conatct us by" />
+       <h1>contact</h1>
       </BodyContainer>
       <Footer/>
     </div>
