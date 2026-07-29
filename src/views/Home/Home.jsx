@@ -4,6 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import BodyContainer from "../../components/BodyContainer/BodyContainer";
 import ProductCard from "../../components/productCard/ProductCard";
 import { PRODUCTS } from "../../config";
+import PageTitle from "../../components/PageTitle/PageTitle";
 
 
 function Card({children}){
@@ -15,9 +16,9 @@ function Home() {
   return (
     <div className="home">
       <Navbar active="home" />
-
+     <PageTitle title="welcome to my ice creem shop" />
       <BodyContainer>
-        <h1>Ice Creams</h1>
+        
         <div className="products-container">
           {PRODUCTS.map((product)=>{
            return  <ProductCard key={product.id}  product={product}/>;
