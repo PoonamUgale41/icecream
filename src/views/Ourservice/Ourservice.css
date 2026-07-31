@@ -1,0 +1,19 @@
+.service-card{
+ width: 200px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(247, 129, 129);
+ padding: 10px;
+ border-radius: 20px;
+ box-shadow: 0 4px 8px;
+}
+.service-card-title{
+    margin: 0px;
+}
+.service-card-description{
+    text-align: center;
+    font-size: 14px;
+    color: #0a0475;
+}

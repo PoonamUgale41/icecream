@@ -9,7 +9,7 @@ function Contact() {
     <div>
       <Navbar active="contact" />
       <BodyContainer>
-       <PageTitle title="conatct us by" />
+       <PageTitle title="conatct us by" subtitle={"we are just one call away"} />
        <h1>contact</h1>
       </BodyContainer>
       <Footer/>

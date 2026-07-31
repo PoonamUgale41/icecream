@@ -16,7 +16,7 @@ function Home() {
   return (
     <div className="home">
       <Navbar active="home" />
-     <PageTitle title="welcome to my ice creem shop" />
+     <PageTitle title="welcome to my ice creem shop" subtitle={"sharing the sweet things!"}/>
       <BodyContainer>
         
         <div className="products-container">

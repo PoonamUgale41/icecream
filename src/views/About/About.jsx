@@ -8,7 +8,9 @@ function About() {
     <div>
       <Navbar active="about" />
       <BodyContainer>
-         <PageTitle title="know more about us" />
+         <PageTitle title="know more about" 
+                    subtitle ={"we are dedicated to providing the best service"}
+       />
       </BodyContainer>
       <Footer />
     </div>

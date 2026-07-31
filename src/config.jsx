@@ -8,6 +8,7 @@ import Img7 from "./assets/ice-cake1.png";
 import Img8 from "./assets/ice-cake2.png";
 import Img9 from "./assets/ice-cake3.png";
 import Img10 from "./assets/ice-cake4.png";
+import { Utensils  } from "lucide-react";
 
 const PRODUCTS =[
   {
@@ -82,4 +83,20 @@ const PRODUCTS =[
   },
 ];
 
-export {PRODUCTS};
+
+const OUR_SERVICES = [
+{
+  id:1,
+  title: "Dine-in",
+  description:"Enjoy the delicious meal and welcoming atmospher",
+  icon:<Utensils height={"60px"} width={"60px"}/>,
+
+},
+{
+  id:2,
+  title:"takeaway",
+  description:"craving our ice cream but thw go? our takeway service",
+  icon:<Utensils height={"60px"} width={"60px"}/>,
+},
+];
+export {PRODUCTS , OUR_SERVICES};
