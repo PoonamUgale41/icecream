@@ -53,15 +53,15 @@ const PRODUCTS =[
 const OUR_SERVICES = [
 {
   id:1,
-  title: "Dine-in",
-  description:"Enjoy the delicious meal and welcoming atmospher",
+  title: "lighten up",
+  description:"Post high-quality photos of your lamps lit up in cozy rooms.",
   icon:<Utensils height={"60px"} width={"60px"}/>,
 
 },
 {
   id:2,
-  title:"takeaway",
-  description:"craving our ice cream but thw go? our takeway service",
+  title:"Modern light",
+  description:"Making your house feel like home",
   icon:<Utensils height={"60px"} width={"60px"}/>,
 },
 ];
