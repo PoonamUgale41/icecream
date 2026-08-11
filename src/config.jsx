@@ -1,8 +1,8 @@
-import Img1 from "./assets/ice-cream1.png";
-import Img2 from "./assets/ice-cream2.png";
-import Img3 from "./assets/ice-cream3.png";
-import Img4 from "./assets/ice-cream4.png";
-import Img5 from "./assets/ice-cream5.png";
+import Img1 from "./assets/lamp1.jpg";
+import Img2 from "./assets/lamp2.jpg";
+import Img3 from "./assets/lamp3.jpg";
+import Img4 from "./assets/lamp4.jpg";
+import Img5 from "./assets/lamp5.webp";
 import Img6 from "./assets/ice-cream6.png";
 import Img7 from "./assets/ice-cake1.png";
 import Img8 from "./assets/ice-cake2.png";
@@ -13,74 +13,40 @@ import { Utensils  } from "lucide-react";
 const PRODUCTS =[
   {
     id:1,
-    title: "Icecream cone",
+    title: "Floor Lamp",
     price:30,
-    description:"A sweet, frozen dessert made from cream, sugar, and fresh strawberries or natural flavorings",
+    description:"Tall fixtures like arc, tripod, or torchiere models designed to fill empty room corners or anchor reading areas.",
     image:Img3
   },
   {
     id:2,
-    title: "Icecream bar",
+    title: "Tiffany Lamps",
     price:25,
-    description:"a frozen dairy dessert on a stick, typically coated in a hard layer of chocolate or other sweet toppings" ,
+    description:"Feature handcrafted, colorful stained-glass shades that bring a vintage, artistic, and rich glow to traditional spaces." ,
     image:Img2
   },
   {
     id:3,
-    title: "Gelato",
+    title: "Buffet Lamp",
     price:15,
-    description:"a popular, artisanal style of Italian ice cream",
+    description:"Extra-tall, slender lamps traditionally used on dining room sideboards or narrow entry consoles.",
     image:Img1
   },
   {
     id:4,
-    title: "Sorbet",
+    title: "Novelty Lamp",
     price:50,
-    description:"a frozen dessert made from fruit puree or juice, water, and sugar",
+    description:"Portable or accent pieces styled like classic lanterns, globes, or artistic sculptures to create unique visual",
     image:Img4
   },
   {
     id:5,
-    title: "Popsicle",
+    title: "Fiber Optic Lamp",
     price:20,
-    description:"a sweet, frozen food made of flavored water, juice, or milk on a small wooden stick",
+    description:"Bases holding sprays of thin plastic fibers that change colors at the tips.",
     image:Img5
   },
-  {
-    id:6,
-    title: "Sundae",
-    price:50,
-    description:"a sweet ice cream dessert that typically features ice cream, sweet syrup or sauce, and extra toppings",
-    image:Img6
-  },
-  {
-    id:7,
-    title: "IceCake-cheese",
-    price:500,
-    description:"a sweet ice-caker dessert that typically features ice cream, sweet syrup or sauce, and extra toppings",
-    image:Img7
-  },
-  {
-    id:8,
-    title: "IceCake-strawberry",
-    price:550,
-    description:"a sweet ice-cake dessert that typically features ice cream, sweet syrup ,blueberry, and extra toppings",
-    image:Img8
-  },
-  {
-    id:9,
-    title: "IceCake-blueberry",
-    price:550,
-    description:"a sweet ice-cake dessert that typically features ice cream, sweet syrup ,blueberry, and extra toppings",
-    image:Img9
-  },
-  {
-    id:10,
-    title: "IceCake-blueberry",
-    price:550,
-    description:"a sweet ice-cake dessert that typically features ice cream, sweet syrup ,blueberry, and extra toppings",
-    image:Img10
-  },
+  
 ];
 
 

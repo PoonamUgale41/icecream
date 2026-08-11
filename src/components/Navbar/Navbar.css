@@ -1,5 +1,5 @@
 .navbar{
-    background-color:rgb(246, 119, 178);
+    background-color:rgb(20, 52, 80);
     color:black;
     height: 30px;
     padding: 10px 20px;
@@ -8,20 +8,20 @@
 }
 .menu-item{
     text-align: none;
-    color: rgb(166, 65, 65);
+    color: rgb(238, 227, 227);
     margin: 0 20px;
     display: inline-flex;
     align-items: center;
 }
 .menu-item:hover {
-  color:rgb(48, 45, 45);
+  color:rgb(236, 226, 226);
   transition: 0.3s;
 }
 .menu-icon {
 height: 20px;
 }
 .active-menu{
-    color: rgb(5, 5, 5);
+    color: rgb(223, 245, 24);
     font-weight: bold;
     position: relative;
     bottom: 7px;
